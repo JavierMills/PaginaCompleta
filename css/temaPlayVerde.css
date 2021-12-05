@@ -1,0 +1,19 @@
+
+        body{
+            background: url("../img/Temas/ps5-1-1620x800.jpg");
+            /* background:rgb(231, 102, 124); ; */
+            background-attachment: fixed;
+        }
+        #logo:hover{
+            background:#00ff0d;
+            
+        
+        }
+        #menu:hover{
+            background:#00ff0d;
+        
+        }
+        form input[type = "submit"]:hover{
+            background:#00ff0d;
+            
+        }

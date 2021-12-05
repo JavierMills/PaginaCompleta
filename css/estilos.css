@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/* body{
+    */
+
+#global{
+    width: 85%;
+    /* height: 80%; */
+    margin: 0px auto;
+    margin-top: 10px;
+    padding: 20px;
+    /* background: white; */
+}
+#logo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    letter-spacing: 10px;
+    line-height: 100px;
+    background: gray;  
+    color: white; 
+    text-align: center;
+    /* width: 380px */
+    margin-bottom: 50px;
+}
+
+#logo:hover{
+    
+    
+    transition: all 2000ms;
+}
+#menu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5px;
+    background: gray;
+    width: 100%;
+    height: 40px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+}
+#menu ul{
+    line-height: 40px;
+    list-style : none;
+
+
+}   
+#menu li{
+    height: 40px; 
+    display: inline-block;
+   
+    margin-left: 100px;
+
+
+}
+#menu:hover{
+   
+    transition: all 2000ms;
+}
+
+#menu a{
+    display: block;
+    color : white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+
+#posts{
+    width: 60%;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+.posts{
+        padding: 7px;
+        height: 50%;
+       
+    }
+.posts h3{
+    font-size: 40px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+
+}
+.posts .date{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    align-content: center;
+  
+
+}
+.posts img{
+    width: 60%;
+}
+.posts p{
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 25px;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-size: larger;
+    text-align: justify;
+}
+
+#sidebar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width:40%;
+    float: right;
+    /* height: 50px; */
+    
+}
+#sidebar p{
+    width: 80%;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: justify;
+}
+#sidebar h4{
+    font-size: 40px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+   
+  }
+#sidebar img{
+    margin-top: 50px;
+    width: 80%;
+}
+
+form input[type = "text"],
+form input[type = "password"],
+form input[type = "email"],
+form input[type = "number"],
+select
+{
+    padding: 8px;
+    font-size: larger;
+    border-radius: 20px;
+    border: 5px solid gray;
+    width: 37%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: center;
+
+}
+.bx-wrapper, .bx-vieport{
+    /* width: 100%; */
+    margin-left: 500px;
+    /* height: 100%; */
+    
+
+}
+
+form input[type = "submit"]{
+    width: 200px;
+    background: gray;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    color:white;
+    cursor:grab; 
+    margin-bottom: 50px;
+}   
+form input[type = "submit"]:hover{
+    /* background:#eeff00; */
+    transition: all 2000ms;
+    border-radius: 99px;
+}
+
+#login h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    }
+footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    height: 47px;
+    background: rgba(51, 51, 51, 0, 70);
+    margin: 0px, auto;
+    font-size: larger;
+    text-align: right;
+    width: 58%;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 47px;
+
+}
+#fechita{
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace
+
+}
+#selection-theme{
+    position: fixed;
+    top: 40%;
+    /* background: rgba(51, 51, 51, 0, 0.5); */
+  
+    width: 50px;
+    height: 100px;
+}
+
+#to-yellow,
+#to-orange,
+#to-green{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    display: block;
+    margin:0px auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+}
+#to-yellow{
+    background:#eeff00;
+}
+#to-orange{
+    background:#ff6600;
+}
+#to-green{
+    background:#00ff0d;
+}
+.subir{
+    color: blue;
+    text-decoration: none;
+    /* display: block; */
+    float: right;
+    margin-left: 350px
+}
+#accordion{
+    width: 60%;
+    float: left;
+  
+}
+#h2acordion{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#reloj{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(252, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 99px;
+    width: 55%;
+    padding: 30px;
+    margin: 0px auto;
+    
+
+}
+#formularioContact{
+    width: 60%;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-content: center;
+    
+}
+#formularioContact label{
+    align-content: center;
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+
+}
+.form-error{
+    /* float:right; */
+    background: red;
+    color: white;
+    padding: 10px;
+    width: 51%;
+    /* margin-left:50px; */
+
+}

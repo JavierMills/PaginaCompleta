@@ -1,0 +1,19 @@
+body{
+    background: url("../img/xboxseriesx.png");
+    /* background:rgb(231, 102, 124); ; */
+    background-attachment: fixed;
+}
+#logo:hover{
+    background:#eeff00;
+    
+   
+}
+#menu:hover{
+    background:#eeff00;
+    transform: 2000ms;
+  
+}
+form input[type = "submit"]:hover{
+    background:#eeff00;
+    
+}
